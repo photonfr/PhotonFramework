@@ -1,0 +1,2 @@
+# photoframework
+Simplicity is key.

@@ -1,4 +1,5 @@
 var lines = []
+let code;
 var line = 0;
 var addingLines = 1;
 if(addingLines == 1) {
@@ -13,4 +14,9 @@ if(code == "") {
 	lines.push(code)
 }
 
-exports.lines = lines();
+exports.lines = lines;
+exports.line = line;
+exports.addingLines = addingLines;
+exports.code = code;
+
+

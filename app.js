@@ -12,3 +12,5 @@ if(code == "") {
 	document.write("LINE " + line + ":" + code)
 	lines.push(code)
 }
+
+exports.lines = lines();

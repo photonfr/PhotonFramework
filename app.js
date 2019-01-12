@@ -14,9 +14,13 @@ if(code == "") {
 	lines.push(code)
 }
 
-exports.lines = lines;
-exports.line = line;
-exports.addingLines = addingLines;
-exports.code = code;
+const _lines = lines;
+export { _lines as lines };
+const _line = line;
+export { _line as line };
+const _addingLines = addingLines;
+export { _addingLines as addingLines };
+const _code = code;
+export { _code as code };
 
 

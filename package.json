@@ -1,0 +1,19 @@
+{
+  "name": "photon",
+  "version": "1.0.0",
+  "description": "Simplicity is key.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/photonfr/PhotonFramework.git"
+  },
+  "author": "Razviti and Nutts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/photonfr/PhotonFramework/issues"
+  },
+  "homepage": "https://github.com/photonfr/PhotonFramework#readme"
+}
